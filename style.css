@@ -3,13 +3,17 @@ html {
   }
   
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-      'Helvetica Neue', Arial, sans-serif;
+    background-color: #474e5d;
+    font-family: Helvetica, sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
     color: #333;
     margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
   }
   
   h1 {
@@ -25,7 +29,7 @@ html {
   }
   
   h2 {
-    font-size: 3.25rem;
+    font-size: 2.5rem;
   }
   
   a {
@@ -65,33 +69,7 @@ html {
     padding: 50px;
   }
   
-  #img-caption {
-    margin: 15px 0 5px 0;
-  }
-  
-  @media (max-width: 460px) {
-    #img-caption {
-      font-size: 1.4rem;
-    }
-  }
-  
-  #headline {
-    margin: 50px 0;
-    text-align: center;
-  }
-  
 
-
-
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #474e5d;
-    font-family: Helvetica, sans-serif;
-  }
-  
   /* The actual timeline (the vertical ruler) */
   .timeline {
     position: relative;
